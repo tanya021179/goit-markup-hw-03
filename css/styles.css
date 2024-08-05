@@ -52,6 +52,7 @@ img {
 .header-container {
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
@@ -209,6 +210,7 @@ img {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 24 * 3) / 4);
+  border-radius: 0 0 4px 4px;
 }
 .team-title {
   font-weight: 500;
@@ -252,6 +254,9 @@ img {
 }
 .portfolio-item {
   width: calc((100% - 24 * 5) / 6);
+  border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 .portfolio-img {
   width: 360px;
