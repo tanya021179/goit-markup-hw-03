@@ -119,11 +119,12 @@ img {
   background-color: #2e2f42;
   display: flex;
   justify-content: center;
+  padding: 188px 0;
 }
 .hero-container {
   display: block;
   text-align: center;
-  padding: 188px 0;
+  
 }
 .hero-headline {
   font-weight: 700;
