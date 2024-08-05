@@ -122,7 +122,6 @@ img {
   padding: 188px 0;
 }
 .hero-container {
-  display: block;
   text-align: center;
   
 }
@@ -144,13 +143,14 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  margin-bottom: 188px;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
   bottom: none;
   display: block;
   border: none;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-btn:hover,
@@ -233,7 +233,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 32px;
 }
 /* #endregion our team */
 
@@ -251,7 +250,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-
 }
 .portfolio-list {
   display: flex;
@@ -277,23 +275,19 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
-
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
 }
 /* #endregion portfolio */
 
 /* #region footer */
 .footer {
   background-color: #2e2f42;
-  margin-left: 156px;
   padding: 100px 0;
 }
 .footer-logo {
