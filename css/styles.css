@@ -119,11 +119,11 @@ img {
   background-color: #2e2f42;
   display: flex;
   justify-content: center;
-  padding: 180 0;
 }
 .hero-container {
   display: block;
   text-align: center;
+  padding: 180 0;
 }
 .hero-headline {
   font-weight: 700;
@@ -261,7 +261,7 @@ img {
 }
 .portfolio-container {
   padding: 32px 16px;
-  border-right: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-item {
   width: calc((100% - 24 * 2) / 3);
@@ -294,8 +294,6 @@ img {
 .footer {
   background-color: #2e2f42;
   margin-left: 156px;
-}
-.footer-container {
   padding: 100px 0;
 }
 .footer-logo {
